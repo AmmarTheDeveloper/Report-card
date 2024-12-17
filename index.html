@@ -1,0 +1,418 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Report Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      * {
+        font-family: sans-serif;
+      }
+
+      @media print {
+        .print {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body class="p-4">
+    <div class="p-4">
+      <div class="mb-4 flex gap-[40px] px-[20px]">
+        <div>Logo</div>
+        <div class="flex-1">
+          <h1 class="text-2xl font-bold px-[20px]">
+            ZOHRA MEMORIAL PUBLIC SCHOOL
+          </h1>
+          <div class="flex gap-[50px] mt-2">
+            <span
+              >Enrollment
+              No....................................................</span
+            >
+            <span
+              >Roll No....................................................</span
+            >
+          </div>
+        </div>
+      </div>
+      <table class="w-full border-collapse border-2 border-black text-sm">
+        <!-- <thead> -->
+        <tr>
+          <th class="border-2 border-black p-1 w-[35px]" rowspan="3">S. No.</th>
+          <th class="border-2 border-black p-1" rowspan="3">Subject</th>
+          <th colspan="2" class="border-2 border-black p-1">Unit Test</th>
+          <th colspan="2" class="border-2 border-black p-1">
+            Half Yearly Exam
+          </th>
+          <th colspan="2" class="border-2 border-black p-1">Unit Test</th>
+          <th colspan="2" class="border-2 border-black p-1">Annual Exam</th>
+          <th rowspan="2" colspan="4" class="border-2 border-black p-1">
+            Grand Total
+          </th>
+          <th class="border-2 border-black p-1 text-lg" rowspan="2">Remarks</th>
+        </tr>
+        <tr>
+          <th class="border-2 border-black p-1" colspan="2">I Test</th>
+          <th class="border-2 border-black p-1" colspan="2">I Exam</th>
+          <th class="border-2 border-black p-1" colspan="2">II Test</th>
+          <th class="border-2 border-black p-1" colspan="2">II Exam</th>
+        </tr>
+        <tr>
+          <th class="border-2 border-black p-1">M.M.</th>
+          <th class="border-2 border-black p-1">M.O.</th>
+          <th class="border-2 border-black p-1">M.M.</th>
+          <th class="border-2 border-black p-1">M.O.</th>
+          <th class="border-2 border-black p-1">M.M.</th>
+          <th class="border-2 border-black p-1">M.O.</th>
+          <th class="border-2 border-black p-1">M.M.</th>
+          <th class="border-2 border-black p-1">M.O.</th>
+          <th class="border-2 border-black p-1">M.M.</th>
+          <th class="border-2 border-black p-1">M.O.</th>
+          <th class="border-2 border-black p-1">%age</th>
+          <th class="border-2 border-black p-1">Grade</th>
+          <td
+            rowspan="4"
+            class="border-2 border-black p-1 text-center"
+            style="vertical-align: bottom"
+          >
+            Position in Class
+          </td>
+        </tr>
+        <!-- </thead> -->
+        <!-- <tbody> -->
+        <!-- Repeat for each subject -->
+        <tr>
+          <td class="border-2 border-black p-1 text-center font-bold">1</td>
+          <td class="border-2 border-black p-1">English</td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+        </tr>
+        <tr>
+          <td class="border-2 border-black p-1 text-center font-bold">2</td>
+          <td class="border-2 border-black p-1">Mathematics</td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+        </tr>
+        <tr>
+          <td class="border-2 border-black p-1 text-center font-bold">3</td>
+          <td class="border-2 border-black p-1">Social Studies</td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+        </tr>
+        <tr>
+          <td class="border-2 border-black p-1 text-center font-bold">4</td>
+          <td class="border-2 border-black p-1">Science</td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td
+            rowspan="5"
+            class="border-2 border-black p-1 text-center"
+            style="vertical-align: bottom"
+          >
+            Percentage
+          </td>
+        </tr>
+        <tr>
+          <td class="border-2 border-black p-1 text-center font-bold">5</td>
+          <td class="border-2 border-black p-1">G.K.</td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+        </tr>
+        <tr>
+          <td class="border-2 border-black p-1 text-center font-bold">6</td>
+          <td class="border-2 border-black p-1">Computer</td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+        </tr>
+        <tr>
+          <td class="border-2 border-black p-1 text-center font-bold">7</td>
+          <td class="border-2 border-black p-1">Hindi</td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+        </tr>
+        <tr>
+          <td class="border-2 border-black p-1 text-center font-bold">8</td>
+          <td class="border-2 border-black p-1">Urdu</td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+        </tr>
+        <tr>
+          <td class="border-2 border-black p-1 text-center font-bold">9</td>
+          <td class="border-2 border-black p-1">Arabic</td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td
+            rowspan="5"
+            class="border-2 border-black p-1 text-center"
+            style="vertical-align: bottom"
+          >
+            Division
+          </td>
+        </tr>
+        <tr>
+          <td class="border-2 border-black p-1 text-center font-bold">10</td>
+          <td class="border-2 border-black p-1">Art</td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+        </tr>
+        <tr>
+          <td class="border-2 border-black p-1 text-center font-bold">11</td>
+          <td class="border-2 border-black p-1">Sanskrit</td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+        </tr>
+        <tr>
+          <td
+            class="border-2 border-black p-1 text-center font-bold h-[30px]"
+          ></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+        </tr>
+        <tr>
+          <td
+            class="border-2 border-black p-1 text-center font-bold h-[30px]"
+          ></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+        </tr>
+        <tr>
+          <td
+            class="border-2 border-black p-1 text-center font-bold h-[30px]"
+          ></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td
+            rowspan="5"
+            class="border-2 border-black p-1 text-center"
+            style="vertical-align: bottom"
+          >
+            Result
+          </td>
+        </tr>
+        <!-- End of subjects -->
+        <tr>
+          <td
+            colspan="2"
+            class="border-2 border-black p-1 text-right font-bold"
+          >
+            Total
+          </td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+          <td class="border-2 border-black p-1"></td>
+        </tr>
+        <tr>
+          <td
+            colspan="2"
+            class="border-2 border-black p-1 text-right font-bold"
+          >
+            Percentage
+          </td>
+          <td colspan="12" class="border-2 border-black p-1"></td>
+        </tr>
+        <tr>
+          <td
+            colspan="2"
+            class="border-2 border-black p-1 text-right font-bold"
+          >
+            Attendance
+          </td>
+          <td colspan="12" class="border-2 border-black p-1"></td>
+        </tr>
+        <tr>
+          <td
+            colspan="2"
+            class="border-2 border-black p-1 text-right font-bold"
+          >
+            GRAND TOTAL
+          </td>
+          <td colspan="12" class="border-2 border-black p-1"></td>
+        </tr>
+        <tr class="text-center">
+          <td
+            colspan="5"
+            class="border-2 border-black p-1 h-[110px]"
+            style="vertical-align: bottom"
+          >
+            <i> Parent's Signature </i>
+          </td>
+          <td
+            colspan="5"
+            style="vertical-align: bottom"
+            class="border-2 border-black p-1"
+          >
+            <i> Class Teacher Signature </i>
+          </td>
+          <td
+            colspan="5"
+            style="vertical-align: bottom"
+            class="border-2 border-black p-1"
+          >
+            <i> Principal Signature </i>
+          </td>
+        </tr>
+        <!-- </tbody> -->
+      </table>
+    </div>
+    <div class="text-center print">
+      <button
+        onclick="window.print()"
+        class="btn bg-blue-300 border-2 border-blue-500 px-2 rounded text-black cursor-pointer"
+      >
+        Print
+      </button>
+    </div>
+  </body>
+</html>
